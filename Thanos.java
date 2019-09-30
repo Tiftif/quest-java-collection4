@@ -72,7 +72,7 @@ public class Thanos  {
                
         for (Hero hero : party.keySet()) {
             Flower flower = party.get(hero);
-            System.out.println(hero.getName() + " : " + flower.getName());
+            System.out.println(flower.getName());
         }
     }
 }
